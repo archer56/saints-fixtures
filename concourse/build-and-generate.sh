@@ -13,7 +13,8 @@ if ! git diff-index --quiet HEAD -- rugby_matches.ics; then
   git config user.name "Concourse CI"
   git config user.email "ci@archers.world"
   git add rugby_matches.ics
-  git commit -m "Update rugby_matches.ics [ci skip]"
+  git add rugbymatches.json
+  git commit -m "Update to rugby calendar [ci skip]"
 else
   echo "No changes detected."
 fi
