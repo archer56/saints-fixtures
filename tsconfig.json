@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     // Modern JS output (compatible with Node 18+)
+    "module": "CommonJS",                   // Node default module system
+    "rootDir": "src",                       // Your TypeScript source folder
+    "outDir": "dist",                       // Compiled JavaScript output folder
+    "esModuleInterop": true,                // Allow default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                         // Enable all strict type checks
+    "skipLibCheck": true,                   // Skip type checking of .d.ts files for speed
+    "resolveJsonModule": true               // Allow importing .json files
+  },
+  "include": ["src"],                       // Include your code
+  "exclude": ["node_modules", "dist"]       // Ignore these folders
+}
