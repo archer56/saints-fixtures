@@ -3,6 +3,7 @@
 import axios from "axios";
 // @ts-ignore
 import fs from 'fs';
+import { RUFeedsMatch } from "./types/rugby-union-feeds.types";
 
 
 const season = '202501'
@@ -22,8 +23,24 @@ type Match = {
   }
 }
 
-const getSaintsHomeGames = async (competitionId: string) => {
-    const data = await axios.get('https://rugby-union-feeds.incrowdsports.com/v1/matches', {
+type SavedMatches = Record<string, {
+  calCreated: string;
+  updateIteration: number;
+  startTime: string;
+  endTime: string;
+  competition: string;
+  status: RUFeedsMatch['status'];
+  homeTeam: string;
+  homeScore: number | null;
+  awayTeam: string;
+  awayScore: number | null;
+  broadcaster: string[] | null;
+  location: string;
+  lastModified?: string;
+}>
+
+const getSaintsGames = async (competitionId: string): Promise<RUFeedsMatch[]> => {
+  const data = await axios.get('https://rugby-union-feeds.incrowdsports.com/v1/matches', {
     params: {
       provider: 'rugbyviz',
       season,
@@ -44,43 +61,100 @@ const getSaintsHomeGames = async (competitionId: string) => {
   return saintsMatches;
 } 
 
-// @ts-ignore
-function formatDate(date) {
+
+function formatDate(date: Date) {
   return new Date(date).toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
 }
 
 ( async() => {
   const data = await Promise.all([
-    getSaintsHomeGames(compId.premiership),
-    getSaintsHomeGames(compId.premiershipCup),
-    getSaintsHomeGames(compId.championsCup),
-    getSaintsHomeGames(compId.challengeCup)
+    getSaintsGames(compId.premiership),
+    getSaintsGames(compId.premiershipCup),
+    getSaintsGames(compId.championsCup),
+    getSaintsGames(compId.challengeCup)
   ])
 
   // @ts-ignore
   const orderedMatches = data.flat().sort((a, b) => new Date(a.date) - new Date(b.date));
 
+  const rugbyMatches = JSON.parse(fs.readFileSync('rugbymatches.json', 'utf8')) as SavedMatches;
+
+  let updatesToCalendarNeeded = false;
+  
+  const rugbyMatchesUpdated = orderedMatches.reduce<SavedMatches>((acc, currMatch): SavedMatches => {
+    if(!currMatch.id || !currMatch.date) {
+      return acc;
+    }
+
+    const startTime = new Date(currMatch.date);
+
+    if(acc?.[currMatch.id]) {
+      const savedMatch = acc[currMatch.id];
+      if(savedMatch.status !== currMatch.status) {
+        updatesToCalendarNeeded = true;
+
+        savedMatch.status = currMatch.status;
+        savedMatch.homeScore = currMatch?.homeTeam?.score ?? null;
+        savedMatch.awayScore = currMatch?.homeTeam?.score ?? null;
+        savedMatch.updateIteration = savedMatch.updateIteration + 1
+        savedMatch.lastModified = formatDate(new Date());
+      }
+
+      return acc;
+    }
+    
+    acc[currMatch.id] = {
+      calCreated: formatDate(new Date()),
+      updateIteration: 1,
+      startTime: formatDate(startTime),
+      endTime: formatDate(new Date(startTime.getTime() + 2 * 60 * 60 * 1000)),
+      competition: currMatch?.compName ?? 'Unknown Competition',
+      status: currMatch.status,
+      homeTeam: currMatch?.homeTeam?.name ?? 'Unknown Home Team',
+      homeScore: currMatch?.homeTeam?.score ?? null,
+      awayTeam: currMatch?.awayTeam?.name ?? 'Unknown Away Team',
+      awayScore: currMatch?.awayTeam?.score ?? null,
+      broadcaster: currMatch?.broadcasters ?? null,
+      location: currMatch?.venue?.name ?? 'Unknown Venue',
+    }
+    
+    return acc;
+  }, rugbyMatches)
+
+  if(!updatesToCalendarNeeded) {
+    console.log('No Updates needed');
+    return;
+  }
+
+  fs.writeFileSync('rugbymatches.json', JSON.stringify(rugbyMatchesUpdated, null, 2), 'utf8');
 
   let ical = 'BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//MyApp//EN\n';
 
-
-  orderedMatches.forEach(match => {
-    const start = new Date(match.date);
-    const end = new Date(start.getTime() + 2 * 60 * 60 * 1000); // 2-hour match
-
-    const competition = match.compName;
-    const description = match.status === 'result' ? `${match.homeTeam.name} ${match.homeTeam.score} : ${match.awayTeam.score} ${match.awayTeam.name}` : `Broadcasters: ${match.broadcasters?.join(', ') ?? 'Not Televised'}`;
-
+  Object.entries(rugbyMatchesUpdated).forEach(([id, match]) => {
     ical += 'BEGIN:VEVENT\n';
-    ical += `UID:${match.id}@rugbyviz.com\n`;
-    ical += `DTSTAMP:${formatDate(new Date())}\n`;
-    ical += `DTSTART:${formatDate(start)}\n`;
-    ical += `DTEND:${formatDate(end)}\n`;
-    ical += `SUMMARY:${match.homeTeam.name} vs ${match.awayTeam.name}\n`;
-    ical += `DESCRIPTION:${competition} - ${description}\n`;
-    ical += `LOCATION:${match.venue.name}\n`;
+    ical += `UID:${id}@rugbyviz.com\n`;
+    ical += `DTSTAMP:${match.calCreated}\n`;
+    ical += `SEQUENCE:${match.updateIteration}\n`;
+    
+    if(match.lastModified) {
+      ical += `LAST-MODIFIED:${match.lastModified}\n`;
+    }
+
+    ical += `DTSTART:${match.startTime}\n`;
+    ical += `DTEND:${match.endTime}\n`;
+    ical += `SUMMARY:${match.homeTeam} vs ${match.awayTeam}\n`;
+
+    let description = `${match.competition}\n`;
+    description += `Broadcasters: ${match.broadcaster?.join(', ') ?? 'Not Televised'}\n`;
+    
+    if (match.status === 'result') { 
+      description += `Result: ${match.homeTeam} ${match.homeScore} : ${match.awayScore} ${match.awayTeam}\n`;
+    }
+
+    ical += `DESCRIPTION:${description}`;
+    ical += `LOCATION:${match.location}\n`;
     ical += 'END:VEVENT\n';
-  });
+  })
 
   ical += 'END:VCALENDAR';
 
