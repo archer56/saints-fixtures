@@ -9,7 +9,6 @@ DTSTART:2025-12-07T13:00:00.000Z
 DTEND:2025-12-07T15:00:00.000Z
 SUMMARY:Pau vs Northampton Saints
 DESCRIPTION:Investec Champions Cup
-Broadcasters: beIN, premier, SS, FloRugby
 LOCATION:Stade du Hameau
 END:VEVENT
 BEGIN:VEVENT
@@ -20,7 +19,6 @@ DTSTART:2025-12-14T15:15:00.000Z
 DTEND:2025-12-14T17:15:00.000Z
 SUMMARY:Northampton Saints vs Vodacom Bulls
 DESCRIPTION:Investec Champions Cup
-Broadcasters: premier, SS, beIN, FloRugby
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -31,7 +29,6 @@ DTSTART:2026-01-11T15:15:00.000Z
 DTEND:2026-01-11T17:15:00.000Z
 SUMMARY:Bordeaux-Begles vs Northampton Saints
 DESCRIPTION:Investec Champions Cup
-Broadcasters: FTV, beIN, premier, SS, FloRugby
 LOCATION:Stade Chaban-Delmas
 END:VEVENT
 BEGIN:VEVENT
@@ -42,7 +39,6 @@ DTSTART:2026-01-18T15:15:00.000Z
 DTEND:2026-01-18T17:15:00.000Z
 SUMMARY:Northampton Saints vs Scarlets
 DESCRIPTION:Investec Champions Cup
-Broadcasters: premier, beIN, SS, FloRugby
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -53,7 +49,6 @@ DTSTART:2025-09-28T12:00:00.000Z
 DTEND:2025-09-28T14:00:00.000Z
 SUMMARY:Northampton Saints vs Exeter Chiefs
 DESCRIPTION:Gallagher PREM
-Broadcasters: TNT
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -64,8 +59,6 @@ DTSTART:2025-10-05T14:00:00.000Z
 DTEND:2025-10-05T16:00:00.000Z
 SUMMARY:Gloucester Rugby vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: TNT
-Result: Gloucester Rugby 35 : 37 Northampton Saints
 LOCATION:Kingsholm
 END:VEVENT
 BEGIN:VEVENT
@@ -76,8 +69,6 @@ DTSTART:2025-10-11T14:05:00.000Z
 DTEND:2025-10-11T16:05:00.000Z
 SUMMARY:Northampton Saints vs Leicester Tigers
 DESCRIPTION:Gallagher PREM
-Broadcasters: TNT
-Result: Northampton Saints 32 : 26 Leicester Tigers
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -88,8 +79,6 @@ DTSTART:2025-10-17T18:45:00.000Z
 DTEND:2025-10-17T20:45:00.000Z
 SUMMARY:Newcastle Red Bulls vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: DISC
-Result: Newcastle Red Bulls 19 : 36 Northampton Saints
 LOCATION:Kingston Park
 END:VEVENT
 BEGIN:VEVENT
@@ -100,8 +89,6 @@ DTSTART:2025-10-24T18:45:00.000Z
 DTEND:2025-10-24T20:45:00.000Z
 SUMMARY:Northampton Saints vs Saracens
 DESCRIPTION:Gallagher PREM
-Broadcasters: TNT
-Result: Northampton Saints 43 : 31 Saracens
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -112,7 +99,6 @@ DTSTART:2025-11-29T17:45:00.000Z
 DTEND:2025-11-29T19:45:00.000Z
 SUMMARY:Bristol Bears vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: TNT
 LOCATION:Ashton Gate
 END:VEVENT
 BEGIN:VEVENT
@@ -123,7 +109,6 @@ DTSTART:2025-12-20T15:00:00.000Z
 DTEND:2025-12-20T17:00:00.000Z
 SUMMARY:Northampton Saints vs Sale Sharks
 DESCRIPTION:Gallagher PREM
-Broadcasters: DISC
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -134,7 +119,6 @@ DTSTART:2025-12-27T17:30:00.000Z
 DTEND:2025-12-27T19:30:00.000Z
 SUMMARY:Bath Rugby vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: TNT
 LOCATION:The Rec
 END:VEVENT
 BEGIN:VEVENT
@@ -145,7 +129,6 @@ DTSTART:2026-01-03T17:30:00.000Z
 DTEND:2026-01-03T19:30:00.000Z
 SUMMARY:Northampton Saints vs Harlequins
 DESCRIPTION:Gallagher PREM
-Broadcasters: TNT
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -156,7 +139,6 @@ DTSTART:2026-01-24T15:00:00.000Z
 DTEND:2026-01-24T17:00:00.000Z
 SUMMARY:Sale Sharks vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:CorpAcq Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -167,7 +149,6 @@ DTSTART:2026-03-21T15:00:00.000Z
 DTEND:2026-03-21T17:00:00.000Z
 SUMMARY:Northampton Saints vs Newcastle Red Bulls
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -178,7 +159,6 @@ DTSTART:2026-03-28T18:00:00.000Z
 DTEND:2026-03-28T20:00:00.000Z
 SUMMARY:Saracens vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:Tottenham Hotspur Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -189,7 +169,6 @@ DTSTART:2026-04-18T14:00:00.000Z
 DTEND:2026-04-18T16:00:00.000Z
 SUMMARY:Exeter Chiefs vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:Sandy Park
 END:VEVENT
 BEGIN:VEVENT
@@ -200,7 +179,6 @@ DTSTART:2026-04-25T14:00:00.000Z
 DTEND:2026-04-25T16:00:00.000Z
 SUMMARY:Northampton Saints vs Bath Rugby
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -211,7 +189,6 @@ DTSTART:2026-05-09T14:00:00.000Z
 DTEND:2026-05-09T16:00:00.000Z
 SUMMARY:Leicester Tigers vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:Mattioli Woods Welford Road
 END:VEVENT
 BEGIN:VEVENT
@@ -222,7 +199,6 @@ DTSTART:2026-05-16T14:00:00.000Z
 DTEND:2026-05-16T16:00:00.000Z
 SUMMARY:Northampton Saints vs Bristol Bears
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -233,7 +209,6 @@ DTSTART:2026-05-30T14:00:00.000Z
 DTEND:2026-05-30T16:00:00.000Z
 SUMMARY:Northampton Saints vs Gloucester Rugby
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -244,7 +219,6 @@ DTSTART:2026-06-06T14:00:00.000Z
 DTEND:2026-06-06T16:00:00.000Z
 SUMMARY:Harlequins vs Northampton Saints
 DESCRIPTION:Gallagher PREM
-Broadcasters: Not Televised
 LOCATION:Twickenham Stoop
 END:VEVENT
 BEGIN:VEVENT
@@ -255,8 +229,6 @@ DTSTART:2025-09-19T18:30:00.000Z
 DTEND:2025-09-19T20:30:00.000Z
 SUMMARY:Saracens vs Northampton Saints
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
-Result: Saracens 34 : 49 Northampton Saints
 LOCATION:StoneX Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -267,7 +239,6 @@ DTSTART:2025-11-01T17:30:00.000Z
 DTEND:2025-11-01T19:30:00.000Z
 SUMMARY:Northampton Saints vs Harlequins
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -278,7 +249,6 @@ DTSTART:2025-11-15T17:30:00.000Z
 DTEND:2025-11-15T19:30:00.000Z
 SUMMARY:Northampton Saints vs Newcastle Red Bulls
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -289,7 +259,6 @@ DTSTART:2025-11-21T19:30:00.000Z
 DTEND:2025-11-21T21:30:00.000Z
 SUMMARY:Leicester Tigers vs Northampton Saints
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
 LOCATION:Mattioli Woods Welford Road
 END:VEVENT
 BEGIN:VEVENT
@@ -300,7 +269,6 @@ DTSTART:2026-01-31T15:00:00.000Z
 DTEND:2026-01-31T17:00:00.000Z
 SUMMARY:Northampton Saints vs Leicester Tigers
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -311,7 +279,6 @@ DTSTART:2026-02-14T14:00:00.000Z
 DTEND:2026-02-14T16:00:00.000Z
 SUMMARY:Harlequins vs Northampton Saints
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
 LOCATION:Twickenham Stoop
 END:VEVENT
 BEGIN:VEVENT
@@ -322,7 +289,6 @@ DTSTART:2026-02-20T19:45:00.000Z
 DTEND:2026-02-20T21:45:00.000Z
 SUMMARY:Newcastle Red Bulls vs Northampton Saints
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
 LOCATION:Kingston Park
 END:VEVENT
 BEGIN:VEVENT
@@ -333,7 +299,6 @@ DTSTART:2026-02-28T15:00:00.000Z
 DTEND:2026-02-28T17:00:00.000Z
 SUMMARY:Northampton Saints vs Saracens
 DESCRIPTION:PREM Rugby Cup
-Broadcasters: Not Televised
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 END:VCALENDAR
