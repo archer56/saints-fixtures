@@ -110,19 +110,20 @@
   },
   "288939": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20251011T140500Z",
     "endTime": "20251011T160500Z",
     "competition": "Gallagher PREM",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 32,
     "awayTeam": "Leicester Tigers",
-    "awayScore": null,
+    "awayScore": 32,
     "broadcaster": [
       "TNT"
     ],
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20251030T193532Z"
   },
   "288943": {
     "calCreated": "20251030T192904Z",
