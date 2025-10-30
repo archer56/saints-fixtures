@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-cd repo
+git clone repo repo-modified
+
+cd repo-modified
 
 npm install
 
