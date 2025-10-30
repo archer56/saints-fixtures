@@ -63,7 +63,7 @@ const getSaintsGames = async (competitionId: string): Promise<RUFeedsMatch[]> =>
 
 
 function formatDate(date: Date) {
-  return new Date(date).toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  return date.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
 }
 
 ( async() => {
@@ -103,6 +103,8 @@ function formatDate(date: Date) {
       return acc;
     }
     
+    updatesToCalendarNeeded = true;
+
     acc[currMatch.id] = {
       calCreated: formatDate(new Date()),
       updateIteration: 1,
@@ -144,14 +146,14 @@ function formatDate(date: Date) {
     ical += `DTEND:${match.endTime}\n`;
     ical += `SUMMARY:${match.homeTeam} vs ${match.awayTeam}\n`;
 
-    let description = `${match.competition}\n`;
-    description += `Broadcasters: ${match.broadcaster?.join(', ') ?? 'Not Televised'}\n`;
+    let description = `${match.competition}\\n`;
+    description += `Broadcasters: ${match.broadcaster?.join(', ') ?? 'Not Televised'}\\n`;
     
     if (match.status === 'result') { 
-      description += `Result: ${match.homeTeam} ${match.homeScore} : ${match.awayScore} ${match.awayTeam}\n`;
+      description += `Result: ${match.homeTeam} ${match.homeScore} : ${match.awayScore} ${match.awayTeam}\\n`;
     }
 
-    ical += `DESCRIPTION:${description}`;
+    ical += `DESCRIPTION:${description}\n`;
     ical += `LOCATION:${match.location}\n`;
     ical += 'END:VEVENT\n';
   })

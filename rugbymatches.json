@@ -1,9 +1,9 @@
 {
   "288369": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-12-07T13:00:00.000Z",
-    "endTime": "2025-12-07T15:00:00.000Z",
+    "startTime": "20251207T130000Z",
+    "endTime": "20251207T150000Z",
     "competition": "Investec Champions Cup",
     "status": "fixture",
     "homeTeam": "Pau",
@@ -19,10 +19,10 @@
     "location": "Stade du Hameau"
   },
   "288382": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-12-14T15:15:00.000Z",
-    "endTime": "2025-12-14T17:15:00.000Z",
+    "startTime": "20251214T151500Z",
+    "endTime": "20251214T171500Z",
     "competition": "Investec Champions Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -38,10 +38,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288395": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-01-11T15:15:00.000Z",
-    "endTime": "2026-01-11T17:15:00.000Z",
+    "startTime": "20260111T151500Z",
+    "endTime": "20260111T171500Z",
     "competition": "Investec Champions Cup",
     "status": "fixture",
     "homeTeam": "Bordeaux-Begles",
@@ -58,10 +58,10 @@
     "location": "Stade Chaban-Delmas"
   },
   "288406": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-01-18T15:15:00.000Z",
-    "endTime": "2026-01-18T17:15:00.000Z",
+    "startTime": "20260118T151500Z",
+    "endTime": "20260118T171500Z",
     "competition": "Investec Champions Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -77,26 +77,26 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288930": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-09-28T12:00:00.000Z",
-    "endTime": "2025-09-28T14:00:00.000Z",
+    "startTime": "20250928T120000Z",
+    "endTime": "20250928T140000Z",
     "competition": "Gallagher PREM",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 33,
     "awayTeam": "Exeter Chiefs",
-    "awayScore": null,
+    "awayScore": 33,
     "broadcaster": [
       "TNT"
     ],
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288936": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-10-05T14:00:00.000Z",
-    "endTime": "2025-10-05T16:00:00.000Z",
+    "startTime": "20251005T140000Z",
+    "endTime": "20251005T160000Z",
     "competition": "Gallagher PREM",
     "status": "result",
     "homeTeam": "Gloucester Rugby",
@@ -109,26 +109,26 @@
     "location": "Kingsholm"
   },
   "288939": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-10-11T14:05:00.000Z",
-    "endTime": "2025-10-11T16:05:00.000Z",
+    "startTime": "20251011T140500Z",
+    "endTime": "20251011T160500Z",
     "competition": "Gallagher PREM",
-    "status": "result",
+    "status": "fixture",
     "homeTeam": "Northampton Saints",
-    "homeScore": 32,
+    "homeScore": null,
     "awayTeam": "Leicester Tigers",
-    "awayScore": 26,
+    "awayScore": null,
     "broadcaster": [
       "TNT"
     ],
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288943": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-10-17T18:45:00.000Z",
-    "endTime": "2025-10-17T20:45:00.000Z",
+    "startTime": "20251017T184500Z",
+    "endTime": "20251017T204500Z",
     "competition": "Gallagher PREM",
     "status": "result",
     "homeTeam": "Newcastle Red Bulls",
@@ -141,10 +141,10 @@
     "location": "Kingston Park"
   },
   "288947": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-10-24T18:45:00.000Z",
-    "endTime": "2025-10-24T20:45:00.000Z",
+    "startTime": "20251024T184500Z",
+    "endTime": "20251024T204500Z",
     "competition": "Gallagher PREM",
     "status": "result",
     "homeTeam": "Northampton Saints",
@@ -157,10 +157,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288955": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-11-29T17:45:00.000Z",
-    "endTime": "2025-11-29T19:45:00.000Z",
+    "startTime": "20251129T174500Z",
+    "endTime": "20251129T194500Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Bristol Bears",
@@ -173,10 +173,10 @@
     "location": "Ashton Gate"
   },
   "288958": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-12-20T15:00:00.000Z",
-    "endTime": "2025-12-20T17:00:00.000Z",
+    "startTime": "20251220T150000Z",
+    "endTime": "20251220T170000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -189,10 +189,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288965": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-12-27T17:30:00.000Z",
-    "endTime": "2025-12-27T19:30:00.000Z",
+    "startTime": "20251227T173000Z",
+    "endTime": "20251227T193000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Bath Rugby",
@@ -205,10 +205,10 @@
     "location": "The Rec"
   },
   "288970": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-01-03T17:30:00.000Z",
-    "endTime": "2026-01-03T19:30:00.000Z",
+    "startTime": "20260103T173000Z",
+    "endTime": "20260103T193000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -221,10 +221,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288975": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-01-24T15:00:00.000Z",
-    "endTime": "2026-01-24T17:00:00.000Z",
+    "startTime": "20260124T150000Z",
+    "endTime": "20260124T170000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Sale Sharks",
@@ -235,10 +235,10 @@
     "location": "CorpAcq Stadium"
   },
   "288981": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-03-21T15:00:00.000Z",
-    "endTime": "2026-03-21T17:00:00.000Z",
+    "startTime": "20260321T150000Z",
+    "endTime": "20260321T170000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -249,10 +249,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "288986": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-03-28T18:00:00.000Z",
-    "endTime": "2026-03-28T20:00:00.000Z",
+    "startTime": "20260328T180000Z",
+    "endTime": "20260328T200000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Saracens",
@@ -263,10 +263,10 @@
     "location": "Tottenham Hotspur Stadium"
   },
   "288989": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-04-18T14:00:00.000Z",
-    "endTime": "2026-04-18T16:00:00.000Z",
+    "startTime": "20260418T140000Z",
+    "endTime": "20260418T160000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Exeter Chiefs",
@@ -277,10 +277,10 @@
     "location": "Sandy Park"
   },
   "288995": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-04-25T14:00:00.000Z",
-    "endTime": "2026-04-25T16:00:00.000Z",
+    "startTime": "20260425T140000Z",
+    "endTime": "20260425T160000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -291,10 +291,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "289000": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-05-09T14:00:00.000Z",
-    "endTime": "2026-05-09T16:00:00.000Z",
+    "startTime": "20260509T140000Z",
+    "endTime": "20260509T160000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Leicester Tigers",
@@ -305,10 +305,10 @@
     "location": "Mattioli Woods Welford Road"
   },
   "289004": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-05-16T14:00:00.000Z",
-    "endTime": "2026-05-16T16:00:00.000Z",
+    "startTime": "20260516T140000Z",
+    "endTime": "20260516T160000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -319,10 +319,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "289010": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-05-30T14:00:00.000Z",
-    "endTime": "2026-05-30T16:00:00.000Z",
+    "startTime": "20260530T140000Z",
+    "endTime": "20260530T160000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -333,10 +333,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "289015": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-06-06T14:00:00.000Z",
-    "endTime": "2026-06-06T16:00:00.000Z",
+    "startTime": "20260606T140000Z",
+    "endTime": "20260606T160000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Harlequins",
@@ -347,10 +347,10 @@
     "location": "Twickenham Stoop"
   },
   "289036": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-09-19T18:30:00.000Z",
-    "endTime": "2025-09-19T20:30:00.000Z",
+    "startTime": "20250919T183000Z",
+    "endTime": "20250919T203000Z",
     "competition": "PREM Rugby Cup",
     "status": "result",
     "homeTeam": "Saracens",
@@ -361,10 +361,10 @@
     "location": "StoneX Stadium"
   },
   "289041": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-11-01T17:30:00.000Z",
-    "endTime": "2025-11-01T19:30:00.000Z",
+    "startTime": "20251101T173000Z",
+    "endTime": "20251101T193000Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -375,10 +375,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "289045": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-11-15T17:30:00.000Z",
-    "endTime": "2025-11-15T19:30:00.000Z",
+    "startTime": "20251115T173000Z",
+    "endTime": "20251115T193000Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -389,10 +389,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "289049": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2025-11-21T19:30:00.000Z",
-    "endTime": "2025-11-21T21:30:00.000Z",
+    "startTime": "20251121T193000Z",
+    "endTime": "20251121T213000Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Leicester Tigers",
@@ -403,10 +403,10 @@
     "location": "Mattioli Woods Welford Road"
   },
   "289053": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-01-31T15:00:00.000Z",
-    "endTime": "2026-01-31T17:00:00.000Z",
+    "startTime": "20260131T150000Z",
+    "endTime": "20260131T170000Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -417,10 +417,10 @@
     "location": "cinch Stadium @ Franklin's Gardens"
   },
   "289060": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-02-14T14:00:00.000Z",
-    "endTime": "2026-02-14T16:00:00.000Z",
+    "startTime": "20260214T140000Z",
+    "endTime": "20260214T160000Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Harlequins",
@@ -431,10 +431,10 @@
     "location": "Twickenham Stoop"
   },
   "289063": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-02-20T19:45:00.000Z",
-    "endTime": "2026-02-20T21:45:00.000Z",
+    "startTime": "20260220T194500Z",
+    "endTime": "20260220T214500Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Newcastle Red Bulls",
@@ -445,10 +445,10 @@
     "location": "Kingston Park"
   },
   "289069": {
-    "calCreated": "2025-10-30T17:56:00.646Z",
+    "calCreated": "20251030T192904Z",
     "updateIteration": 1,
-    "startTime": "2026-02-28T15:00:00.000Z",
-    "endTime": "2026-02-28T17:00:00.000Z",
+    "startTime": "20260228T150000Z",
+    "endTime": "20260228T170000Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
