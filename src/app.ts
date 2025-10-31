@@ -95,7 +95,7 @@ function formatDate(date: Date) {
 
         savedMatch.status = currMatch.status;
         savedMatch.homeScore = currMatch?.homeTeam?.score ?? null;
-        savedMatch.awayScore = currMatch?.homeTeam?.score ?? null;
+        savedMatch.awayScore = currMatch?.awayTeam?.score ?? null;
         savedMatch.updateIteration = savedMatch.updateIteration + 1
         savedMatch.lastModified = formatDate(new Date());
       }
