@@ -114,11 +114,11 @@
     "startTime": "20251011T140500Z",
     "endTime": "20251011T160500Z",
     "competition": "Gallagher PREM",
-    "status": "result",
+    "status": "fixture",
     "homeTeam": "Northampton Saints",
-    "homeScore": 32,
+    "homeScore": null,
     "awayTeam": "Leicester Tigers",
-    "awayScore": 32,
+    "awayScore": null,
     "broadcaster": [
       "TNT"
     ],
