@@ -64,12 +64,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:288939@rugbyviz.com
 DTSTAMP:20251030T192904Z
-SEQUENCE:2
-LAST-MODIFIED:20251030T193532Z
+SEQUENCE:3
+LAST-MODIFIED:20251031T114340Z
 DTSTART:20251011T140500Z
 DTEND:20251011T160500Z
 SUMMARY:Northampton Saints vs Leicester Tigers
-DESCRIPTION:Gallagher PREM\nBroadcasters: TNT\nResult: Northampton Saints 32 : 32 Leicester Tigers\n
+DESCRIPTION:Gallagher PREM\nBroadcasters: TNT\nResult: Northampton Saints 32 : 26 Leicester Tigers\n
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
