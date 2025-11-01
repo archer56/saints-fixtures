@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e 
 
-git clone repo repo-modified
+git clone saints-fixtures-repo repo-modified
 
 cd repo-modified
 
