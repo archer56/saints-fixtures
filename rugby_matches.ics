@@ -235,11 +235,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:289041@rugbyviz.com
 DTSTAMP:20251030T192904Z
-SEQUENCE:1
+SEQUENCE:2
+LAST-MODIFIED:20251101T215138Z
 DTSTART:20251101T173000Z
 DTEND:20251101T193000Z
 SUMMARY:Northampton Saints vs Harlequins
-DESCRIPTION:PREM Rugby Cup\nBroadcasters: Not Televised\n
+DESCRIPTION:PREM Rugby Cup\nBroadcasters: Not Televised\nResult: Northampton Saints 26 : 17 Harlequins\n
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
