@@ -378,17 +378,18 @@
   },
   "289045": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20251115T173000Z",
     "endTime": "20251115T193000Z",
     "competition": "PREM Rugby Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 14,
     "awayTeam": "Newcastle Red Bulls",
-    "awayScore": null,
+    "awayScore": 31,
     "broadcaster": null,
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20251115T222614Z"
   },
   "289049": {
     "calCreated": "20251030T192904Z",
