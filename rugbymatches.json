@@ -393,17 +393,18 @@
   },
   "289049": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20251121T193000Z",
     "endTime": "20251121T213000Z",
     "competition": "PREM Rugby Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Leicester Tigers",
-    "homeScore": null,
+    "homeScore": 34,
     "awayTeam": "Northampton Saints",
-    "awayScore": null,
+    "awayScore": 22,
     "broadcaster": null,
-    "location": "Mattioli Woods Welford Road"
+    "location": "Mattioli Woods Welford Road",
+    "lastModified": "20251122T190444Z"
   },
   "289053": {
     "calCreated": "20251030T192904Z",
