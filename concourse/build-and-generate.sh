@@ -5,9 +5,9 @@ git clone saints-fixtures-repo repo-modified
 
 cd repo-modified
 
-npm install
+yarn install --frozen-lockfile
 
-npm run start
+yarn start
 
 if ! git diff-index --quiet HEAD -- rugby_matches.ics; then
   echo "Detected changes in rugby_matches.ics — committing..."
