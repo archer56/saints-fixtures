@@ -159,19 +159,20 @@
   },
   "288955": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20251129T174500Z",
     "endTime": "20251129T194500Z",
     "competition": "Gallagher PREM",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Bristol Bears",
-    "homeScore": null,
+    "homeScore": 46,
     "awayTeam": "Northampton Saints",
-    "awayScore": null,
+    "awayScore": 12,
     "broadcaster": [
       "TNT"
     ],
-    "location": "Ashton Gate"
+    "location": "Ashton Gate",
+    "lastModified": "20251202T201438Z"
   },
   "288958": {
     "calCreated": "20251030T192904Z",
