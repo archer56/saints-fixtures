@@ -1,15 +1,15 @@
 {
   "288369": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 2,
+    "updateIteration": 3,
     "startTime": "20251207T130000Z",
     "endTime": "20251207T150000Z",
     "competition": "Investec Champions Cup",
-    "status": "first half",
+    "status": "result",
     "homeTeam": "Pau",
-    "homeScore": 14,
+    "homeScore": 27,
     "awayTeam": "Northampton Saints",
-    "awayScore": 12,
+    "awayScore": 35,
     "broadcaster": [
       "beIN",
       "premier",
@@ -17,7 +17,7 @@
       "FloRugby"
     ],
     "location": "Stade du Hameau",
-    "lastModified": "20251207T135137Z"
+    "lastModified": "20251207T195207Z"
   },
   "288382": {
     "calCreated": "20251030T192904Z",
