@@ -21,22 +21,23 @@
   },
   "288382": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20251214T151500Z",
     "endTime": "20251214T171500Z",
     "competition": "Investec Champions Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 50,
     "awayTeam": "Vodacom Bulls",
-    "awayScore": null,
+    "awayScore": 5,
     "broadcaster": [
       "premier",
       "SS",
       "beIN",
       "FloRugby"
     ],
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20251214T200721Z"
   },
   "288395": {
     "calCreated": "20251030T192904Z",

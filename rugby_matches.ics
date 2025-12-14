@@ -15,11 +15,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:288382@rugbyviz.com
 DTSTAMP:20251030T192904Z
-SEQUENCE:1
+SEQUENCE:2
+LAST-MODIFIED:20251214T200721Z
 DTSTART:20251214T151500Z
 DTEND:20251214T171500Z
 SUMMARY:Northampton Saints vs Vodacom Bulls
-DESCRIPTION:Investec Champions Cup\nBroadcasters: premier, SS, beIN, FloRugby\n
+DESCRIPTION:Investec Champions Cup\nBroadcasters: premier, SS, beIN, FloRugby\nResult: Northampton Saints 50 : 5 Vodacom Bulls\n
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
