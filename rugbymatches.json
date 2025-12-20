@@ -178,19 +178,20 @@
   },
   "288958": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20251220T150000Z",
     "endTime": "20251220T170000Z",
     "competition": "Gallagher PREM",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 47,
     "awayTeam": "Sale Sharks",
-    "awayScore": null,
+    "awayScore": 21,
     "broadcaster": [
       "DISC"
     ],
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20251220T202324Z"
   },
   "288965": {
     "calCreated": "20251030T192904Z",
