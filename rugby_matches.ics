@@ -26,22 +26,34 @@ END:VEVENT
 BEGIN:VEVENT
 UID:288395@rugbyviz.com
 DTSTAMP:20251030T192904Z
-SEQUENCE:1
+SEQUENCE:2
+LAST-MODIFIED:20260118T222829Z
 DTSTART:20260111T151500Z
 DTEND:20260111T171500Z
 SUMMARY:Bordeaux-Begles vs Northampton Saints
-DESCRIPTION:Investec Champions Cup\nBroadcasters: FTV, beIN, premier, SS, FloRugby\n
+DESCRIPTION:Investec Champions Cup\nBroadcasters: FTV, beIN, premier, SS, FloRugby\nResult: Bordeaux-Begles 50 : 28 Northampton Saints\n
 LOCATION:Stade Chaban-Delmas
 END:VEVENT
 BEGIN:VEVENT
 UID:288406@rugbyviz.com
 DTSTAMP:20251030T192904Z
-SEQUENCE:1
+SEQUENCE:2
+LAST-MODIFIED:20260118T222829Z
 DTSTART:20260118T151500Z
 DTEND:20260118T171500Z
 SUMMARY:Northampton Saints vs Scarlets
-DESCRIPTION:Investec Champions Cup\nBroadcasters: premier, beIN, SS, FloRugby\n
+DESCRIPTION:Investec Champions Cup\nBroadcasters: premier, beIN, SS, FloRugby\nResult: Northampton Saints 43 : 28 Scarlets\n
 LOCATION:cinch Stadium @ Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:288413@rugbyviz.com
+DTSTAMP:20260118T222829Z
+SEQUENCE:1
+DTSTART:20260403T140000Z
+DTEND:20260403T160000Z
+SUMMARY:Northampton Saints vs Castres Olympique
+DESCRIPTION:Investec Champions Cup\nBroadcasters: Not Televised\n
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 UID:288930@rugbyviz.com
@@ -119,21 +131,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:288965@rugbyviz.com
 DTSTAMP:20251030T192904Z
-SEQUENCE:1
+SEQUENCE:2
+LAST-MODIFIED:20260118T222829Z
 DTSTART:20251227T173000Z
 DTEND:20251227T193000Z
 SUMMARY:Bath Rugby vs Northampton Saints
-DESCRIPTION:Gallagher PREM\nBroadcasters: TNT\n
+DESCRIPTION:Gallagher PREM\nBroadcasters: TNT\nResult: Bath Rugby 21 : 41 Northampton Saints\n
 LOCATION:The Rec
 END:VEVENT
 BEGIN:VEVENT
 UID:288970@rugbyviz.com
 DTSTAMP:20251030T192904Z
-SEQUENCE:1
+SEQUENCE:2
+LAST-MODIFIED:20260118T222829Z
 DTSTART:20260103T173000Z
 DTEND:20260103T193000Z
 SUMMARY:Northampton Saints vs Harlequins
-DESCRIPTION:Gallagher PREM\nBroadcasters: TNT\n
+DESCRIPTION:Gallagher PREM\nBroadcasters: TNT\nResult: Northampton Saints 66 : 21 Harlequins\n
 LOCATION:cinch Stadium @ Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
