@@ -66,6 +66,31 @@ function formatDate(date: Date) {
   return date.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
 }
 
+type FormatMatchOptions = {
+  startTime: Date;
+  compName?: RUFeedsMatch['compName'];
+  status?: RUFeedsMatch['status'];
+  homeTeam?: RUFeedsMatch['homeTeam'];
+  awayTeam?: RUFeedsMatch['awayTeam'];
+  broadcasters?: RUFeedsMatch['broadcasters'];
+  venue: RUFeedsMatch['venue'];
+}
+
+const formatMatch = (options: FormatMatchOptions) => {
+  return {
+    startTime: formatDate(options.startTime),
+    endTime: formatDate(new Date(options.startTime.getTime() + 2 * 60 * 60 * 1000)),
+    competition: options?.compName ?? 'Unknown Competition',
+    status: options.status,
+    homeTeam: options?.homeTeam?.name ?? 'Unknown Home Team',
+    homeScore: options?.homeTeam?.score ?? null,
+    awayTeam: options?.awayTeam?.name ?? 'Unknown Away Team',
+    awayScore: options?.awayTeam?.score ?? null,
+    broadcaster: options?.broadcasters ?? null,
+    location: options?.venue?.name ?? 'Unknown Venue',
+  }
+}
+
 ( async() => {
   const data = await Promise.all([
     getSaintsGames(compId.premiership),
@@ -85,37 +110,25 @@ function formatDate(date: Date) {
     if(!currMatch.id || !currMatch.date) {
       return acc;
     }
-
+    
     const startTime = new Date(currMatch.date);
 
-    if(acc?.[currMatch.id]) {
-      const savedMatch = acc[currMatch.id];
-      if(
-        savedMatch.status !== currMatch.status || 
-        savedMatch.startTime !== formatDate(startTime) ||
-        JSON.stringify(savedMatch.broadcaster) !== JSON.stringify(currMatch.broadcasters)
-      ) {
-        console.log(savedMatch.startTime !== currMatch.date, savedMatch.startTime, currMatch.date)
-        updatesToCalendarNeeded = true;
+    const savedMatch = acc[currMatch.id];
 
-        savedMatch.status = currMatch.status;
-        savedMatch.homeScore = currMatch?.homeTeam?.score ?? null;
-        savedMatch.awayScore = currMatch?.awayTeam?.score ?? null;
-        savedMatch.updateIteration = savedMatch.updateIteration + 1
-        savedMatch.lastModified = formatDate(new Date());
-        savedMatch.broadcaster = currMatch.broadcasters ?? null;
-        savedMatch.startTime = formatDate(startTime);
-        savedMatch.endTime = formatDate(new Date(startTime.getTime() + 2 * 60 * 60 * 1000));
-      }
-
+    if(savedMatch && (
+      savedMatch.status === currMatch.status && 
+      savedMatch.startTime === formatDate(startTime) &&
+      JSON.stringify(savedMatch.broadcaster) === JSON.stringify(currMatch.broadcasters) &&
+      savedMatch.location === currMatch.venue?.name
+    )) {
       return acc;
     }
-    
+
     updatesToCalendarNeeded = true;
 
     acc[currMatch.id] = {
-      calCreated: formatDate(new Date()),
-      updateIteration: 1,
+      calCreated: savedMatch ? savedMatch.calCreated : formatDate(new Date()),
+      updateIteration: savedMatch ? savedMatch.updateIteration + 1 : 1,
       startTime: formatDate(startTime),
       endTime: formatDate(new Date(startTime.getTime() + 2 * 60 * 60 * 1000)),
       competition: currMatch?.compName ?? 'Unknown Competition',
@@ -126,6 +139,7 @@ function formatDate(date: Date) {
       awayScore: currMatch?.awayTeam?.score ?? null,
       broadcaster: currMatch?.broadcasters ?? null,
       location: currMatch?.venue?.name ?? 'Unknown Venue',
+      lastModified: formatDate(new Date()),
     }
     
     return acc;
