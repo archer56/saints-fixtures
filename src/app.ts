@@ -90,7 +90,12 @@ function formatDate(date: Date) {
 
     if(acc?.[currMatch.id]) {
       const savedMatch = acc[currMatch.id];
-      if(savedMatch.status !== currMatch.status || savedMatch.startTime !== currMatch.date) {
+      if(
+        savedMatch.status !== currMatch.status || 
+        savedMatch.startTime !== formatDate(startTime) ||
+        JSON.stringify(savedMatch.broadcaster) !== JSON.stringify(currMatch.broadcasters)
+      ) {
+        console.log(savedMatch.startTime !== currMatch.date, savedMatch.startTime, currMatch.date)
         updatesToCalendarNeeded = true;
 
         savedMatch.status = currMatch.status;
@@ -98,6 +103,9 @@ function formatDate(date: Date) {
         savedMatch.awayScore = currMatch?.awayTeam?.score ?? null;
         savedMatch.updateIteration = savedMatch.updateIteration + 1
         savedMatch.lastModified = formatDate(new Date());
+        savedMatch.broadcaster = currMatch.broadcasters ?? null;
+        savedMatch.startTime = formatDate(startTime);
+        savedMatch.endTime = formatDate(new Date(startTime.getTime() + 2 * 60 * 60 * 1000));
       }
 
       return acc;
