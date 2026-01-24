@@ -90,7 +90,7 @@ function formatDate(date: Date) {
 
     if(acc?.[currMatch.id]) {
       const savedMatch = acc[currMatch.id];
-      if(savedMatch.status !== currMatch.status) {
+      if(savedMatch.status !== currMatch.status || savedMatch.startTime !== currMatch.date) {
         updatesToCalendarNeeded = true;
 
         savedMatch.status = currMatch.status;
