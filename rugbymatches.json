@@ -82,17 +82,23 @@
   },
   "288413": {
     "calCreated": "20260118T222829Z",
-    "updateIteration": 1,
-    "startTime": "20260403T140000Z",
-    "endTime": "20260403T160000Z",
+    "updateIteration": 2,
+    "startTime": "20260403T190000Z",
+    "endTime": "20260403T210000Z",
     "competition": "Investec Champions Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
     "homeScore": null,
     "awayTeam": "Castres Olympique",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "TBD"
+    "broadcaster": [
+      "beIN",
+      "SS",
+      "FloRugby",
+      "epcrtv"
+    ],
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20260124T141442Z"
   },
   "288930": {
     "calCreated": "20251030T192904Z",
@@ -245,21 +251,24 @@
   },
   "288975": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260124T150000Z",
-    "endTime": "20260124T170000Z",
+    "updateIteration": 2,
+    "startTime": "20260124T173000Z",
+    "endTime": "20260124T193000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Sale Sharks",
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "CorpAcq Stadium"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "CorpAcq Stadium",
+    "lastModified": "20260124T141442Z"
   },
   "288981": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20260321T150000Z",
     "endTime": "20260321T170000Z",
     "competition": "Gallagher PREM",
@@ -268,12 +277,15 @@
     "homeScore": null,
     "awayTeam": "Newcastle Red Bulls",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "broadcaster": [
+      "DISC"
+    ],
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20260124T141442Z"
   },
   "288986": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20260328T180000Z",
     "endTime": "20260328T200000Z",
     "competition": "Gallagher PREM",
@@ -282,68 +294,83 @@
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "Tottenham Hotspur Stadium"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "Tottenham Hotspur Stadium",
+    "lastModified": "20260124T141442Z"
   },
   "288989": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260418T140000Z",
-    "endTime": "20260418T160000Z",
+    "updateIteration": 2,
+    "startTime": "20260418T140500Z",
+    "endTime": "20260418T160500Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Exeter Chiefs",
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "Sandy Park"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "Sandy Park",
+    "lastModified": "20260124T141442Z"
   },
   "288995": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260425T140000Z",
-    "endTime": "20260425T160000Z",
+    "updateIteration": 2,
+    "startTime": "20260425T163000Z",
+    "endTime": "20260425T183000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
     "homeScore": null,
     "awayTeam": "Bath Rugby",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20260124T141442Z"
   },
   "289000": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260509T140000Z",
-    "endTime": "20260509T160000Z",
+    "updateIteration": 2,
+    "startTime": "20260509T140500Z",
+    "endTime": "20260509T160500Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Leicester Tigers",
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "Mattioli Woods Welford Road"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "Mattioli Woods Welford Road",
+    "lastModified": "20260124T141442Z"
   },
   "289004": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260516T140000Z",
-    "endTime": "20260516T160000Z",
+    "updateIteration": 2,
+    "startTime": "20260515T184500Z",
+    "endTime": "20260515T204500Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
     "homeScore": null,
     "awayTeam": "Bristol Bears",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20260124T141442Z"
   },
   "289010": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20260530T140000Z",
     "endTime": "20260530T160000Z",
     "competition": "Gallagher PREM",
@@ -352,8 +379,11 @@
     "homeScore": null,
     "awayTeam": "Gloucester Rugby",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "broadcaster": [
+      "DISC"
+    ],
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20260124T141442Z"
   },
   "289015": {
     "calCreated": "20251030T192904Z",
@@ -430,31 +460,37 @@
   },
   "289053": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260131T150000Z",
-    "endTime": "20260131T170000Z",
+    "updateIteration": 2,
+    "startTime": "20260131T150500Z",
+    "endTime": "20260131T170500Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
     "homeScore": null,
     "awayTeam": "Leicester Tigers",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20260124T141442Z"
   },
   "289060": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260214T140000Z",
-    "endTime": "20260214T160000Z",
+    "updateIteration": 2,
+    "startTime": "20260213T194500Z",
+    "endTime": "20260213T214500Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Harlequins",
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
-    "location": "Twickenham Stoop"
+    "broadcaster": [
+      "TNT"
+    ],
+    "location": "Twickenham Stoop",
+    "lastModified": "20260124T141442Z"
   },
   "289063": {
     "calCreated": "20251030T192904Z",
@@ -472,9 +508,9 @@
   },
   "289069": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 1,
-    "startTime": "20260228T150000Z",
-    "endTime": "20260228T170000Z",
+    "updateIteration": 2,
+    "startTime": "20260228T150500Z",
+    "endTime": "20260228T170500Z",
     "competition": "PREM Rugby Cup",
     "status": "fixture",
     "homeTeam": "Northampton Saints",
@@ -482,6 +518,7 @@
     "awayTeam": "Saracens",
     "awayScore": null,
     "broadcaster": null,
-    "location": "cinch Stadium @ Franklin's Gardens"
+    "location": "cinch Stadium @ Franklin's Gardens",
+    "lastModified": "20260124T141442Z"
   }
 }
