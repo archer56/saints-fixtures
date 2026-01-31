@@ -460,20 +460,20 @@
   },
   "289053": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 2,
+    "updateIteration": 3,
     "startTime": "20260131T150500Z",
     "endTime": "20260131T170500Z",
     "competition": "PREM Rugby Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 40,
     "awayTeam": "Leicester Tigers",
-    "awayScore": null,
+    "awayScore": 22,
     "broadcaster": [
       "TNT"
     ],
     "location": "cinch Stadium @ Franklin's Gardens",
-    "lastModified": "20260124T141442Z"
+    "lastModified": "20260131T165738Z"
   },
   "289060": {
     "calCreated": "20251030T192904Z",
