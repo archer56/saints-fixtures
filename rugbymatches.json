@@ -82,7 +82,7 @@
   },
   "288413": {
     "calCreated": "20260118T222829Z",
-    "updateIteration": 2,
+    "updateIteration": 3,
     "startTime": "20260403T190000Z",
     "endTime": "20260403T210000Z",
     "competition": "Investec Champions Cup",
@@ -92,13 +92,14 @@
     "awayTeam": "Castres Olympique",
     "awayScore": null,
     "broadcaster": [
+      "premier",
       "beIN",
       "SS",
       "FloRugby",
       "epcrtv"
     ],
     "location": "cinch Stadium @ Franklin's Gardens",
-    "lastModified": "20260124T141442Z"
+    "lastModified": "20260203T170410Z"
   },
   "288930": {
     "calCreated": "20251030T192904Z",
