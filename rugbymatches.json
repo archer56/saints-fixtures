@@ -478,20 +478,20 @@
   },
   "289060": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 2,
+    "updateIteration": 3,
     "startTime": "20260213T194500Z",
     "endTime": "20260213T214500Z",
     "competition": "PREM Rugby Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Harlequins",
-    "homeScore": null,
+    "homeScore": 24,
     "awayTeam": "Northampton Saints",
-    "awayScore": null,
+    "awayScore": 40,
     "broadcaster": [
       "TNT"
     ],
     "location": "Twickenham Stoop",
-    "lastModified": "20260124T141442Z"
+    "lastModified": "20260213T232902Z"
   },
   "289063": {
     "calCreated": "20251030T192904Z",
