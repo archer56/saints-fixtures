@@ -525,19 +525,19 @@
   },
   "289072": {
     "calCreated": "20260228T180114Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20260308T133000Z",
     "endTime": "20260308T153000Z",
     "competition": "PREM Rugby Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Exeter Chiefs",
-    "homeScore": null,
+    "homeScore": 31,
     "awayTeam": "Northampton Saints",
-    "awayScore": null,
+    "awayScore": 14,
     "broadcaster": [
       "TNT"
     ],
     "location": "Sandy Park",
-    "lastModified": "20260228T180114Z"
+    "lastModified": "20260308T181846Z"
   }
 }
