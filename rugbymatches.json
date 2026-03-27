@@ -390,9 +390,9 @@
   },
   "289015": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 2,
-    "startTime": "20260606T140000Z",
-    "endTime": "20260606T160000Z",
+    "updateIteration": 3,
+    "startTime": "20260606T141500Z",
+    "endTime": "20260606T161500Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Harlequins",
@@ -403,7 +403,7 @@
       "TNT-HBO"
     ],
     "location": "Twickenham Stoop",
-    "lastModified": "20260327T112710Z"
+    "lastModified": "20260327T172828Z"
   },
   "289036": {
     "calCreated": "20251030T192904Z",
