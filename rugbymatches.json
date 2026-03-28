@@ -286,21 +286,21 @@
   },
   "288986": {
     "calCreated": "20251030T192904Z",
-    "updateIteration": 3,
+    "updateIteration": 4,
     "startTime": "20260328T180000Z",
     "endTime": "20260328T200000Z",
     "competition": "Gallagher PREM",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Saracens",
-    "homeScore": null,
+    "homeScore": 17,
     "awayTeam": "Northampton Saints",
-    "awayScore": null,
+    "awayScore": 21,
     "broadcaster": [
       "TNT-HBO",
       "ITV"
     ],
     "location": "Tottenham Hotspur Stadium",
-    "lastModified": "20260327T112710Z"
+    "lastModified": "20260328T233113Z"
   },
   "288989": {
     "calCreated": "20251030T192904Z",
