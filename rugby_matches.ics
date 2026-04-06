@@ -48,13 +48,24 @@ END:VEVENT
 BEGIN:VEVENT
 UID:288413@rugbyviz.com
 DTSTAMP:20260118T222829Z
-SEQUENCE:3
-LAST-MODIFIED:20260203T170410Z
+SEQUENCE:4
+LAST-MODIFIED:20260406T165456Z
 DTSTART:20260403T190000Z
 DTEND:20260403T210000Z
 SUMMARY:Northampton Saints vs Castres Olympique
-DESCRIPTION:Investec Champions Cup\nBroadcasters: premier, beIN, SS, FloRugby, epcrtv\n
+DESCRIPTION:Investec Champions Cup\nBroadcasters: premier, beIN, SS, FloRugby, epcrtv\nResult: Northampton Saints 49 : 41 Castres Olympique\n
 LOCATION:cinch Stadium @ Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+UID:288420@rugbyviz.com
+DTSTAMP:20260406T165456Z
+SEQUENCE:1
+LAST-MODIFIED:20260406T165456Z
+DTSTART:20260410T190000Z
+DTEND:20260410T210000Z
+SUMMARY:Bath Rugby vs Northampton Saints
+DESCRIPTION:Investec Champions Cup\nBroadcasters: Not Televised\n
+LOCATION:The Rec
 END:VEVENT
 BEGIN:VEVENT
 UID:288930@rugbyviz.com

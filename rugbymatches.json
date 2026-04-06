@@ -82,15 +82,15 @@
   },
   "288413": {
     "calCreated": "20260118T222829Z",
-    "updateIteration": 3,
+    "updateIteration": 4,
     "startTime": "20260403T190000Z",
     "endTime": "20260403T210000Z",
     "competition": "Investec Champions Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 49,
     "awayTeam": "Castres Olympique",
-    "awayScore": null,
+    "awayScore": 41,
     "broadcaster": [
       "premier",
       "beIN",
@@ -99,7 +99,22 @@
       "epcrtv"
     ],
     "location": "cinch Stadium @ Franklin's Gardens",
-    "lastModified": "20260203T170410Z"
+    "lastModified": "20260406T165456Z"
+  },
+  "288420": {
+    "calCreated": "20260406T165456Z",
+    "updateIteration": 1,
+    "startTime": "20260410T190000Z",
+    "endTime": "20260410T210000Z",
+    "competition": "Investec Champions Cup",
+    "status": "fixture",
+    "homeTeam": "Bath Rugby",
+    "homeScore": null,
+    "awayTeam": "Northampton Saints",
+    "awayScore": null,
+    "broadcaster": null,
+    "location": "The Rec",
+    "lastModified": "20260406T165456Z"
   },
   "288930": {
     "calCreated": "20251030T192904Z",
