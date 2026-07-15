@@ -6,7 +6,7 @@ import fs from 'fs';
 import { RUFeedsMatch } from "./types/rugby-union-feeds.types";
 
 
-const season = '202501'
+const season = '202601'
 
 const compId = {
   premiership: '1011',
