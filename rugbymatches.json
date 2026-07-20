@@ -603,7 +603,7 @@
   },
   "293328": {
     "calCreated": "20260715T153719Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20261018T163000Z",
     "endTime": "20261018T183000Z",
     "competition": "Investec Champions Cup",
@@ -612,13 +612,19 @@
     "homeScore": null,
     "awayTeam": "Cardiff Rugby",
     "awayScore": null,
-    "broadcaster": null,
+    "broadcaster": [
+      "premier",
+      "beIN",
+      "SS",
+      "FloRugby",
+      "epcrtv"
+    ],
     "location": "Franklin's Gardens",
-    "lastModified": "20260715T153719Z"
+    "lastModified": "20260720T181318Z"
   },
   "293330": {
     "calCreated": "20260715T153719Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20261211T200000Z",
     "endTime": "20261211T220000Z",
     "competition": "Investec Champions Cup",
@@ -627,13 +633,19 @@
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
+    "broadcaster": [
+      "beIN",
+      "premier",
+      "SS",
+      "FloRugby",
+      "epcrtv"
+    ],
     "location": "Stade Jean Bouin",
-    "lastModified": "20260715T153719Z"
+    "lastModified": "20260720T181318Z"
   },
   "293346": {
     "calCreated": "20260715T153719Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20270109T173000Z",
     "endTime": "20270109T193000Z",
     "competition": "Investec Champions Cup",
@@ -642,13 +654,19 @@
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
+    "broadcaster": [
+      "beIN",
+      "premier",
+      "SS",
+      "FloRugby",
+      "epcrtv"
+    ],
     "location": "Septeo Stadium",
-    "lastModified": "20260715T153719Z"
+    "lastModified": "20260720T181318Z"
   },
   "293353": {
     "calCreated": "20260715T153719Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20270115T200000Z",
     "endTime": "20270115T220000Z",
     "competition": "Investec Champions Cup",
@@ -657,9 +675,15 @@
     "homeScore": null,
     "awayTeam": "Vodacom Bulls",
     "awayScore": null,
-    "broadcaster": null,
+    "broadcaster": [
+      "premier",
+      "SS",
+      "beIN",
+      "FloRugby",
+      "epcrtv"
+    ],
     "location": "Franklin's Gardens",
-    "lastModified": "20260715T153719Z"
+    "lastModified": "20260720T181318Z"
   },
   "294855": {
     "calCreated": "20260715T153719Z",
