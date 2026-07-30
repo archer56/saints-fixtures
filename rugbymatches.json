@@ -928,9 +928,9 @@
   },
   "294947": {
     "calCreated": "20260728T123225Z",
-    "updateIteration": 1,
-    "startTime": "20261228T150000Z",
-    "endTime": "20261228T170000Z",
+    "updateIteration": 2,
+    "startTime": "20261228T170000Z",
+    "endTime": "20261228T190000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Harlequins",
@@ -941,7 +941,7 @@
       "TNT-HBO"
     ],
     "location": "Allianz Stadium",
-    "lastModified": "20260728T123225Z"
+    "lastModified": "20260730T123807Z"
   },
   "294952": {
     "calCreated": "20260728T123225Z",
