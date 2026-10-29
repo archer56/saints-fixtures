@@ -1,4 +1,5 @@
 // https://rugby-union-feeds.incrowdsports.com/v1/matches?provider=rugbyviz&season=202501&compId=1297&sort=date&form=true&images=true
+// https://www.premrugby.com/fixtures-results?round=5&competition=gallagher-prem
 
 import axios from "axios";
 // @ts-ignore
@@ -41,6 +42,11 @@ type SavedMatches = Record<string, {
 
 const getSaintsGames = async (competitionId: string): Promise<RUFeedsMatch[]> => {
   const data = await axios.get('https://rugby-union-feeds.incrowdsports.com/v1/matches', {
+    headers: {
+      'X-App-Id': 'web',
+      'X-Realm': 'prl',
+      'X-Api-Key': 'zDiLQ9o18oVrwn30etwT'
+    },
     params: {
       provider: 'rugbyviz',
       season,
