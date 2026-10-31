@@ -877,20 +877,20 @@
   },
   "294932": {
     "calCreated": "20260728T123225Z",
-    "updateIteration": 3,
+    "updateIteration": 4,
     "startTime": "20261031T173000Z",
     "endTime": "20261031T193000Z",
     "competition": "Gallagher PREM",
-    "status": "first half",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": 0,
+    "homeScore": 28,
     "awayTeam": "Gloucester Rugby",
-    "awayScore": 5,
+    "awayScore": 14,
     "broadcaster": [
       "TNT-HBO"
     ],
     "location": "DPD Stadium at Franklin's Gardens",
-    "lastModified": "20261031T173917Z"
+    "lastModified": "20261031T234017Z"
   },
   "294934": {
     "calCreated": "20260728T123225Z",
