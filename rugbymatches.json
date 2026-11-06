@@ -719,18 +719,18 @@
   },
   "294864": {
     "calCreated": "20260715T153719Z",
-    "updateIteration": 2,
+    "updateIteration": 3,
     "startTime": "20261106T194500Z",
     "endTime": "20261106T214500Z",
     "competition": "PREM Rugby Cup",
-    "status": "fixture",
+    "status": "result",
     "homeTeam": "Northampton Saints",
-    "homeScore": null,
+    "homeScore": 39,
     "awayTeam": "Leicester Tigers",
-    "awayScore": null,
+    "awayScore": 19,
     "broadcaster": null,
     "location": "DPD Stadium at Franklin's Gardens",
-    "lastModified": "20261022T221619Z"
+    "lastModified": "20261106T234950Z"
   },
   "294873": {
     "calCreated": "20260715T153719Z",
