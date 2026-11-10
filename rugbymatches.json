@@ -963,7 +963,7 @@
   },
   "294953": {
     "calCreated": "20260728T123225Z",
-    "updateIteration": 2,
+    "updateIteration": 3,
     "startTime": "20270123T140000Z",
     "endTime": "20270123T160000Z",
     "competition": "Gallagher PREM",
@@ -972,9 +972,11 @@
     "homeScore": null,
     "awayTeam": "Northampton Saints",
     "awayScore": null,
-    "broadcaster": null,
+    "broadcaster": [
+      "TNT-HBO"
+    ],
     "location": "The Rec",
-    "lastModified": "20261110T115806Z"
+    "lastModified": "20261110T175827Z"
   },
   "294960": {
     "calCreated": "20260728T123225Z",
