@@ -963,9 +963,9 @@
   },
   "294953": {
     "calCreated": "20260728T123225Z",
-    "updateIteration": 1,
-    "startTime": "20270123T150000Z",
-    "endTime": "20270123T170000Z",
+    "updateIteration": 2,
+    "startTime": "20270123T140000Z",
+    "endTime": "20270123T160000Z",
     "competition": "Gallagher PREM",
     "status": "fixture",
     "homeTeam": "Bath Rugby",
@@ -974,7 +974,7 @@
     "awayScore": null,
     "broadcaster": null,
     "location": "The Rec",
-    "lastModified": "20260728T123225Z"
+    "lastModified": "20261110T115806Z"
   },
   "294960": {
     "calCreated": "20260728T123225Z",
