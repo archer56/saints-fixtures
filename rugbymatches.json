@@ -734,18 +734,18 @@
   },
   "294873": {
     "calCreated": "20260715T153719Z",
-    "updateIteration": 1,
+    "updateIteration": 2,
     "startTime": "20261121T173000Z",
     "endTime": "20261121T193000Z",
     "competition": "PREM Rugby Cup",
-    "status": "fixture",
+    "status": "first half",
     "homeTeam": "Newcastle Red Bulls",
-    "homeScore": null,
+    "homeScore": 28,
     "awayTeam": "Northampton Saints",
-    "awayScore": null,
+    "awayScore": 5,
     "broadcaster": null,
     "location": "Kingston Park",
-    "lastModified": "20260715T153719Z"
+    "lastModified": "20261121T182419Z"
   },
   "294876": {
     "calCreated": "20260715T153719Z",
